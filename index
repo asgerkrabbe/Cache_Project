@@ -1,0 +1,16 @@
+INDEX FILE
+
+ENDPOINTS:
+
+/get-user-data?=id"ID NUMBER"
+
+/*
+Will output the cache content of the ID number, or create a
+new cache with generated content after 4 seconds
+*/
+
+/delete?id="ID NUMBER"
+
+/*
+Will delete content of the given ID number.
+*/
